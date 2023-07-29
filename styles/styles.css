@@ -218,6 +218,26 @@ h2{
     background-color: #22221F;
     margin: 0 auto;
 }
+.deel-icon{
+    font-size: 3em;
+    color: #060f5a;
+    background: linear-gradient(045deg,#17238f,#88adfd);
+    padding: 5%;
+    border-radius: 40%;
+}
+.bullet-point-deel{
+    color: rgb(37, 43, 128);
+    display: inline;
+    position: absolute;
+    left: -65px;
+    margin-top: 5px;
+}
+.raya-deel{
+    width: 2px;
+    height: 350px;
+    background-color: #22221F;
+    margin: 0 auto;
+}
 
 
 /* Carousel */
