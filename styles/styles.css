@@ -242,9 +242,13 @@ h2{
 
 /* Carousel */
 .card-container{
-    padding: 0 200px;
-    width: 400px;
+    text-align: center;
+}
+.pilot-card{
+    width: 500px;
     background-color: red;
+    display: inline-block;
+
 }
 .pilot-icon{
     height: 150px;
