@@ -242,13 +242,12 @@ h2{
 
 /* Carousel */
 .card-container{
-    text-align: center;
+    width: 100%;
 }
 .pilot-card{
-    width: 500px;
+    width: 300px;
     background-color: red;
-    display: inline-block;
-
+    
 }
 .pilot-icon{
     height: 150px;
