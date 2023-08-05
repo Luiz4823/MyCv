@@ -242,29 +242,27 @@ h2{
 
 /* Carousel */
 .big-square{
-    height: 550px;
-    width: 350px;
+    height: 700px;
+    width: 400px;
     position: absolute;
     border-radius: 16px;
    
 }
 .bsq-style1{
     background: linear-gradient(180deg,#edca85,#f093b0);
-    left: 20%;
-    top: 20px;
-    transform: skewX(15deg);
+    left: 18%;
+    top: -20px;
+    
 }
 .bsq-style2{
     background: linear-gradient(180deg,#b097f2,#a0e9ff);
-    transform: skewX(-15deg);
-    left: 42%;
-    top: 20px;
+    left: 40%;
+    top: -20px;
 }
 .bsq-style3{
     background: linear-gradient(180deg,#edca85,#f093b0);
-    left: 65%;
-    top: 20px;
-    transform: skewX(15deg);
+    left: 61%;
+    top: -20px;
 }
 .card-container{
     position: relative;
