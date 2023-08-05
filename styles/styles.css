@@ -1,6 +1,6 @@
 body{
     color: #cdcdcd;
-    font-family: 'Alegreya Sans', Courier, monospace;
+    font-family: 'Hind', Courier, monospace;
     text-align: center;
 }
 #title{
@@ -241,25 +241,30 @@ h2{
 
 
 /* Carousel */
-.card-container{
-    width: 100%;
+i{
+    color: #111111;
+    font-size: 20px;
+}
+.skills-container{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .pilot-card{
-    padding: 15px;
-    width: 500px;
-    background-color: red;
+    margin: 0 25px 30px 25px;
     display: inline-block;
-    margin: 50px;
-    background: rgba(255, 255, 255, 0.11);
+    padding-top: 50px;
+    width: 400px;
+    display: inline-block;
+    background: rgba(186, 186, 186, 0.05);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1.4px);
-    -webkit-backdrop-filter: blur(1.4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(186, 186, 186, 0.3);
 }
 .pilot-icon{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background: linear-gradient(045deg,#1857de,#8aa9ed);
     border-radius: 40%;
 }
@@ -271,8 +276,19 @@ h2{
     margin-bottom: 20px;
 
 }
+.pilot-card-bottom{
+    background-color: white;
+    margin-top: 20px;
+    padding: 50px 0;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
 .dot-container{
-    padding: 50px;
+    padding: 0px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    
     
 }
 .dot-icon{
@@ -393,7 +409,7 @@ h2{
 
 
 
- @media (max-width: 1676px) {
+ /* @media (max-width: 1676px) {
 
     .container-fluid{
         padding: 160px 5%;
@@ -402,7 +418,7 @@ h2{
         padding-right: 20%;
     }
 
-}
+} */
 
 /* @media (max-width: 1028px) {
 
