@@ -63,7 +63,7 @@ body{
     font-family: 'Merriweather';
     font-size: 4em;
     font-weight: 700;
-    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    background: linear-gradient(271deg, #26c6da 30%,#3f51b5 50%,#ab47bc 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -87,22 +87,26 @@ body{
 .sq-style2{
     bottom: -60px;
     left: -130px;
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
  }
  .sq-style3{
     bottom: -130px;
     right: -130px;
-    background: linear-gradient(180deg,#edca85,#f093b0);
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
  }
  .sq-style4{
     top: -90px;
     right: -250px;
-    background: linear-gradient(180deg,#db85b4,#b097f2);
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
  }
  .sq-style5{
     top: 90px;
     right: -200px;
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
  }
 
 
