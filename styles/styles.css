@@ -81,7 +81,8 @@ body{
 .sq-style1{
    top: -130px;
    left: -130px;
-   background: linear-gradient(180deg,#edca85,#f093b0);
+   background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
 }
 .sq-style2{
     bottom: -60px;
@@ -242,31 +243,37 @@ h2{
 
 /* Carousel */
 .big-square{
-    height: 700px;
+    height: 400px;
     width: 400px;
     position: absolute;
-    border-radius: 16px;
+    border-radius: 50%;
    
 }
 .bsq-style1{
-    background: linear-gradient(180deg,#edca85,#f093b0);
+    background:linear-gradient( to top right, rgba(63,81,181,1) 0%, rgba(3,155,229 ,1) 40%);
+    box-shadow: 1px 1px 30px rgba(2,119,189 ,1); 
     left: 18%;
-    top: -20px;
+    top: 120px;
     
 }
 .bsq-style2{
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
     left: 40%;
-    top: -20px;
-    
+    top: 250px;
+    height: 600px;
+    width: 600px;
+
 }
 .bsq-style3{
-    background: linear-gradient(180deg,#edca85,#f093b0);
-    left: 61%;
-    top: -20px;
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
+    left: 60%;
+    top: -150px;
 }
 .card-container{
     position: relative;
+    margin-bottom: 50px;
 }
 
 i{
