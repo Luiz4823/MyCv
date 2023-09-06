@@ -42,6 +42,7 @@ body{
 
 
 
+
 /* Title section */
 
 .title-image{
@@ -401,24 +402,6 @@ hr{
     margin-bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  @media (max-width: 991px) {
 
     .container-fluid{
@@ -444,97 +427,4 @@ hr{
         width: 65%;
         min-width: 200px;
     }
-
-
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 916px) {
-
-    .timeline-right{
-        width: 100%;
-    }
-
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* @media (max-width: 1676px) {
-
-    .container-fluid{
-        padding: 160px 5%;
-    }
-    .right-column-title{
-        padding-right: 20%;
-    }
-
-} */
-
-/* @media (max-width: 1028px) {
-
-    .container-fluid{
-        padding: 160px 5%;
-    }
-
-} */
-
-
-
-
-
-/* @media (max-width: 1777px) {
-
-    .container-fluid{
-        padding: 160px 0%;
-    }
-    .title-text{
-        font-size: 3em;
-    }
-    .title-p{
-        font-size: 1.2em;
-    }
-    .title-img-container{
-        height: 450px;
-        width: 350px;
-
-    }
-
-} */
-
-
