@@ -2,6 +2,7 @@ body{
     color: #cdcdcd;
     font-family: 'Hind', Courier, monospace;
     text-align: center;
+    overflow-x: hidden;
 }
 #title{
     background-color: #111111;
@@ -44,12 +45,13 @@ body{
 /* Title section */
 
 .title-image{
-    height: 100%;
+    width: 65%;
+    min-width: 450px;
     border-radius: 10%;
 }
 .title-img-container{
     height: 550px;
-    width: 450px;
+    width: 100%;
     position: relative;
     display: inline-block;
 }
@@ -61,9 +63,9 @@ body{
     margin-top: 70px;
     text-align: left;
     font-family: 'Merriweather';
-    font-size: 4em;
+    font-size: clamp(60px, 3vw, 3.5vw);
     font-weight: 700;
-    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    background: linear-gradient(271deg, #26c6da 30%,#3f51b5 50%,#ab47bc 70%,#edca85 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -81,27 +83,32 @@ body{
 .sq-style1{
    top: -130px;
    left: -130px;
-   background: linear-gradient(180deg,#edca85,#f093b0);
+   background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
 }
 .sq-style2{
     bottom: -60px;
     left: -130px;
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
  }
  .sq-style3{
     bottom: -130px;
     right: -130px;
-    background: linear-gradient(180deg,#edca85,#f093b0);
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
  }
  .sq-style4{
     top: -90px;
     right: -250px;
-    background: linear-gradient(180deg,#db85b4,#b097f2);
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
  }
  .sq-style5{
     top: 90px;
     right: -200px;
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
  }
 
 
@@ -188,13 +195,14 @@ h2{
     color: pink;
     display: inline;
     position: absolute;
-    left: -65px;
+    left: -68px;
     margin-top: 5px;
 }
 .lyft-icon{
     font-size: 3em;
     color: #622138;
     background: linear-gradient(045deg,#edb4e4,#fde9c3);
+    box-shadow: 1px 1px 30px rgb(212, 102, 207);
     padding: 5%;
     border-radius: 40%;
 }
@@ -202,6 +210,7 @@ h2{
     font-size: 3em;
     color: #4a4915;
     background: linear-gradient(045deg,#dbd94b,#fde9c3);
+    box-shadow: 1px 1px 30px rgb(203, 216, 27);
     padding: 5%;
     border-radius: 40%;
 }
@@ -209,7 +218,7 @@ h2{
     color: #dbd94b;
     display: inline;
     position: absolute;
-    left: -65px;
+    left: -68px;
     margin-top: 5px;
 }
 .raya-binance{
@@ -222,6 +231,7 @@ h2{
     font-size: 3em;
     color: #060f5a;
     background: linear-gradient(045deg,#17238f,#88adfd);
+    box-shadow: 1px 1px 30px rgb(91, 76, 226);
     padding: 5%;
     border-radius: 40%;
 }
@@ -229,7 +239,7 @@ h2{
     color: rgb(37, 43, 128);
     display: inline;
     position: absolute;
-    left: -65px;
+    left: -68px;
     margin-top: 5px;
 }
 .raya-deel{
@@ -242,31 +252,38 @@ h2{
 
 /* Carousel */
 .big-square{
-    height: 700px;
+    height: 400px;
     width: 400px;
     position: absolute;
-    border-radius: 16px;
+    border-radius: 50%;
+    overflow: hidden;
    
 }
 .bsq-style1{
-    background: linear-gradient(180deg,#edca85,#f093b0);
+    background:linear-gradient( to top right, rgb(63, 81, 181) 0%, rgba(3,155,229 ,1) 40%);
+    box-shadow: 1px 1px 30px rgba(2,119,189 ,1); 
     left: 18%;
-    top: -20px;
+    top: 120px;
     
 }
 .bsq-style2{
-    background: linear-gradient(180deg,#b097f2,#a0e9ff);
-    left: 40%;
-    top: -20px;
-    
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+	        box-shadow: 1px 1px 30px rgba(81,45,168 ,1);
+    left: 40vw;
+    top: 250px;
+    height: 600px;
+    width: 600px;
+
 }
 .bsq-style3{
-    background: linear-gradient(180deg,#edca85,#f093b0);
-    left: 61%;
-    top: -20px;
+    background:linear-gradient( to top right,rgba(156,204,101 ,1) 0%, rgba(38,198,218 ,1) 50%);
+	        box-shadow: 1px 1px 30px rgba(38,198,218 ,1);
+    left: 60%;
+    top: -150px;
 }
 .card-container{
     position: relative;
+    margin-bottom: 50px;
 }
 
 i{
@@ -278,6 +295,7 @@ i{
     padding-right: 10px;
 }
 .pilot-card{
+    text-align: center;
     z-index: 1;
     margin: 0 70px 30px 70px;
     display: inline-block;
@@ -295,25 +313,22 @@ i{
 .card-icon{
     font-size: 100px;
     color: white;
-    border-radius: 40%;
+    
 }
 .skills-title-pilot{
-    color: white;
     font-family: 'Hind';
     /* background: linear-gradient(27deg,#1857de,#aec4f2); */
     /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    
 }
 .pilot-card-bottom{
-    /* background-color: white;
-    margin-top: 20px;
-    padding: 50px 0;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px; */
-    text-align: left;
+    text-align: center;
+    padding: 25px;
+    border-radius: 16px;
+    color: #ffffff;
 }
 .dot-container{
     padding: 0px 0px;
@@ -339,21 +354,24 @@ i{
 .skillset-card{
     font-size: 20px;
     list-style-type: none;
-    color: white;
+    padding-left: 0;
 }
 .skillset-card i{
-    font-size: 14px;
+    font-size: 16px;
     list-style-type: none;
-    color: white;
     margin-right: 10px;
+    color: white;
 }
-
-
+hr{
+    margin: 20px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgb(255, 255, 255)));
+}
 .skills-text{
     margin-top: 10px;
     font-size: 1.2em;
 }
-
 .cs-icon{
     padding: 10px;
     height: 140px;
@@ -401,7 +419,34 @@ i{
 
 
 
+ @media (max-width: 991px) {
 
+    .container-fluid{
+        padding-top: 20px;
+        
+    }
+    .square{
+        display: none;
+    }
+    .title-img-container{
+        padding-top: 100px;
+    }
+    .title-text{
+        text-align: center;
+    }
+    .title-p{
+        text-align: center;
+    }
+    .big-square{
+        display: none;
+    }
+    .title-img{
+        width: 65%;
+        min-width: 200px;
+    }
+
+
+} 
 
 
 
